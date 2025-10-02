@@ -9,7 +9,7 @@ COPY . .
 
 # Install dependencies using npm ci
 RUN npm ci
-RUN npm docs:build
+RUN npm run docs:build
 
 # Expose the port the app runs on
 EXPOSE 3000
