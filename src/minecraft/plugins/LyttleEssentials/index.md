@@ -1,3 +1,9 @@
+---
+lang: en-US
+title: LyttleEssentials | About
+description: LyttleEssentials About page
+---
+
 # Lyttle Essentials
 
 
