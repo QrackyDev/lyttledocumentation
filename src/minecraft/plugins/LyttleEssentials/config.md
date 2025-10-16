@@ -14,7 +14,6 @@ All the options in the config, with explanation.
 
 The price of teleporting to a home, this uses the default [Vault](https://www.spigotmc.org/resources/vault.34315/) currency. If the increase option is enabled, the price will increase every time with the following formula:
 `times_teleported X price`.
-> 
 > If you are searching for a Vault compatible economy plugin, take a look at our plugin [LyttleScoreboardEconomy](https://modrinth.com/plugin/lyttlescoreboardeconomy).
 
 *Default value:*
@@ -29,6 +28,7 @@ The price of teleporting to a home, this uses the default [Vault](https://www.sp
 
  The price to create a warp, this uses the default [Vault](https://www.spigotmc.org/resources/vault.34315/) currency. If the increase option is enabled, the price will increase every time with the following formula:
 `times_teleported X price`.
+> If you are searching for a Vault compatible economy plugin, take a look at our plugin [LyttleScoreboardEconomy](https://modrinth.com/plugin/lyttlescoreboardeconomy).
 
 *Default value:*
 
@@ -42,6 +42,7 @@ The price of teleporting to a home, this uses the default [Vault](https://www.sp
    
    The price for teleporting to a warp, this uses the default [Vault](https://www.spigotmc.org/resources/vault.34315/) currency. If the increase option is enabled, the price will increase every time with the following formula:
 `times_teleported X price`.
+> If you are searching for a Vault compatible economy plugin, take a look at our plugin [LyttleScoreboardEconomy](https://modrinth.com/plugin/lyttlescoreboardeconomy).
 
 *Default Value:*
 
@@ -54,6 +55,7 @@ The price of teleporting to a home, this uses the default [Vault](https://www.sp
 
 The price for teleporting to another player using /tpask, this uses the default [Vault](https://www.spigotmc.org/resources/vault.34315/) currency. If the increase option is enabled, the price will increase every time with the following formula:
 `times_teleported X price`.
+> If you are searching for a Vault compatible economy plugin, take a look at our plugin [LyttleScoreboardEconomy](https://modrinth.com/plugin/lyttlescoreboardeconomy).
 
 *Default value:*
 
@@ -66,6 +68,7 @@ The price for teleporting to another player using /tpask, this uses the default 
 
 The price for teleporting to spawn, this uses the default [Vault](https://www.spigotmc.org/resources/vault.34315/) currency. If the increase option is enabled, the price will increase every time with the following formula:
 `times_teleported X price`.
+> If you are searching for a Vault compatible economy plugin, take a look at our plugin [LyttleScoreboardEconomy](https://modrinth.com/plugin/lyttlescoreboardeconomy).
 
 *Default value:*
 
