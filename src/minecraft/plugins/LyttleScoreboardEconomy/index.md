@@ -1,7 +1,7 @@
 ---
 lang: en-US
-title: LyttleScoreboardEconomy | Index
-description: LyttleScoreboardEconomy index page.
+title: LyttleScoreboardEconomy | About
+description: LyttleScoreboardEconomy about page.
 ---
 
 # Lyttle Scoreboard Economy
