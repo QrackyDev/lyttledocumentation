@@ -15,7 +15,7 @@ export default hopeTheme({
 
     sidebar: {
         '/minecraft/': 'structure',
-        '/test/': 'structure',
+        '/software/': 'structure',
     },
 
     footer: 'Lyttle Development Documentation',
@@ -82,6 +82,9 @@ export default hopeTheme({
         git: {
             changelog: true,
             contributors: true,
-        }
+        },
+        readingTime: {
+            wordPerMinute: 100,
+        },
     },
 });

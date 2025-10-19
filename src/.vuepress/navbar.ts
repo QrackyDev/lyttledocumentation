@@ -8,5 +8,9 @@ export default navbar([
     {
         text: 'Minecraft Plugins',
         link: '/minecraft/',
+    },
+    {
+        text: 'Software',
+        link: '/software/',
     }
 ]);
