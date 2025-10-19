@@ -1,6 +1,5 @@
 import {defineUserConfig, UserConfig} from 'vuepress';
 import theme from './theme.js';
-import {searchPlugin} from '@vuepress/plugin-search';
 
 
 const vitePressConfigs: UserConfig = {
