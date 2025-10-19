@@ -4,12 +4,11 @@ import navbar from './navbar.js';
 
 export default hopeTheme({
     hostname: 'https://docs.lyttledevelopment.com',
-
     logo: '/logo.svg',
 
     repo: 'Lyttle-Development/Documentation',
-
-    docsDir: 'docs',
+    docsDir: 'src',
+    docsBranch: 'main',
 
     // navbar
     navbar,
@@ -63,7 +62,7 @@ export default hopeTheme({
     },
 
     plugins: {
-        catalog: false,
+        catalog: true,
         search: {
             maxSuggestions: 10,
             isSearchable(page) {
