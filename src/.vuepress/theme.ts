@@ -14,8 +14,10 @@ export default hopeTheme({
     navbar,
 
     sidebar: {
+        '/discord/': 'structure',
         '/minecraft/': 'structure',
-        '/test/': 'structure',
+        '/software/': 'structure',
+        '/website/': 'structure',
     },
 
     footer: 'Lyttle Development Documentation',
@@ -82,6 +84,9 @@ export default hopeTheme({
         git: {
             changelog: true,
             contributors: true,
-        }
+        },
+        readingTime: {
+            wordPerMinute: 100,
+        },
     },
 });
