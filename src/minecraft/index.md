@@ -20,8 +20,8 @@ We are not affiliated with Mojang AB or Microsoft Corporation. "Minecraft" is a 
 
 Explore:
 
-- [Libraries](/minecraft/libraries)
-- [Plugins](/minecraft/plugins)
+- [Libraries](/minecraft/libraries/)
+- [Plugins](/minecraft/plugins/)
 
 ## Get involved
 
