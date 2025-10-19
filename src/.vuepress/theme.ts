@@ -64,6 +64,7 @@ export default hopeTheme({
 
     plugins: {
         catalog: false,
+        search: true,
         components: {
             components: ['Badge', 'VPCard'],
         },
