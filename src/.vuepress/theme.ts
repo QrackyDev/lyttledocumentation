@@ -21,6 +21,7 @@ export default hopeTheme({
     footer: 'Lyttle Development Documentation',
 
     displayFooter: true,
+    hotReload: true,
 
     metaLocales: {
         editLink: 'Edit this page on GitHub',
@@ -78,5 +79,9 @@ export default hopeTheme({
         icon: {
             prefix: 'fa6-solid:',
         },
+        git: {
+            changelog: true,
+            contributors: true,
+        }
     },
 });
