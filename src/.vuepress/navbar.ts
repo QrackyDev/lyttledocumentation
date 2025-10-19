@@ -10,7 +10,15 @@ export default navbar([
         link: '/minecraft/',
     },
     {
-        text: 'Software',
+        text: 'Discord Bots',
+        link: '/discord/',
+    },
+    {
+        text: 'Custom Software',
         link: '/software/',
+    },
+    {
+        text: 'Client Websites',
+        link: '/website/',
     }
 ]);

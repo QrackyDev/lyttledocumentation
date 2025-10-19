@@ -14,8 +14,10 @@ export default hopeTheme({
     navbar,
 
     sidebar: {
+        '/discord/': 'structure',
         '/minecraft/': 'structure',
         '/software/': 'structure',
+        '/website/': 'structure',
     },
 
     footer: 'Lyttle Development Documentation',
