@@ -64,7 +64,15 @@ export default hopeTheme({
 
     plugins: {
         catalog: false,
-        search: true,
+        search: {
+            maxSuggestions: 10,
+            isSearchable(page) {
+                // Exclude pages under /test/ from search results
+                if (page.path.startsWith('/test/')) {
+                    return false;
+                }
+            },
+        },
         components: {
             components: ['Badge', 'VPCard'],
         },
