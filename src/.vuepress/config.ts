@@ -8,7 +8,6 @@ const vitePressConfigs: UserConfig = {
     lang: 'en-US',
     title: 'Documentation',
     description: 'All the documentation you need to get started with Lyttle Development',
-
     theme,
 };
 

@@ -8,21 +8,22 @@
     "docs:build": "vuepress-vite build src",
     "docs:clean-dev": "vuepress-vite dev src --clean-cache",
     "docs:dev": "vuepress-vite dev src",
-    "docs:update-package": "npx vp-update",
+    "npm:update": "npm update --save",
     "start": "serve src/.vuepress/dist -l 3000"
   },
   "volta": {
-    "node": "22.19.0"
+    "node": "22.20.0"
   },
   "engines": {
-    "node": "22.19.0"
+    "node": "22.20.0"
   },
   "dependencies": {
-    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/bundler-vite": "2.0.0-rc.26",
+    "@vuepress/plugin-search": "^2.0.0-rc.114",
     "sass-embedded": "^1.93.2",
     "serve": "^14.2.5",
     "vue": "^3.5.22",
-    "vuepress": "2.0.0-rc.24",
-    "vuepress-theme-hope": "2.0.0-rc.94"
+    "vuepress": "2.0.0-rc.26",
+    "vuepress-theme-hope": "2.0.0-rc.95"
   }
 }

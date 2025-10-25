@@ -4,24 +4,26 @@ import navbar from './navbar.js';
 
 export default hopeTheme({
     hostname: 'https://docs.lyttledevelopment.com',
-
     logo: '/logo.svg',
 
     repo: 'Lyttle-Development/Documentation',
-
-    docsDir: 'docs',
+    docsDir: 'src',
+    docsBranch: 'main',
 
     // navbar
     navbar,
 
     sidebar: {
+        '/discord/': 'structure',
         '/minecraft/': 'structure',
-        '/test/': 'structure',
+        '/software/': 'structure',
+        '/website/': 'structure',
     },
 
     footer: 'Lyttle Development Documentation',
 
     displayFooter: true,
+    hotReload: true,
 
     metaLocales: {
         editLink: 'Edit this page on GitHub',
@@ -63,12 +65,28 @@ export default hopeTheme({
     },
 
     plugins: {
-        catalog: false,
+        catalog: true,
+        search: {
+            maxSuggestions: 10,
+            isSearchable(page) {
+                // Exclude pages under /test/ from search results
+                if (page.path.startsWith('/test/')) {
+                    return false;
+                }
+            },
+        },
         components: {
             components: ['Badge', 'VPCard'],
         },
         icon: {
             prefix: 'fa6-solid:',
+        },
+        git: {
+            changelog: true,
+            contributors: true,
+        },
+        readingTime: {
+            wordPerMinute: 100,
         },
     },
 });
